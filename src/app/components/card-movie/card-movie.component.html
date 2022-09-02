@@ -1,0 +1,15 @@
+<div class="movie">
+  <div class="">
+    <p>{{ movie.Year }}</p>
+  </div>
+  <div class="">
+    <img src="{{ getImagen() }}" [alt]="movie.Title">
+  </div>
+  <div  class="container">
+    <span>{{ movie.Type }}</span>
+    <h3>{{ movie.Title }}</h3>
+  </div>
+  <div class="empty">
+    <h3>No se encontraron peliculas</h3>
+  </div>
+</div>
